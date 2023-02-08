@@ -19,6 +19,8 @@ class MainActivity : AppCompatActivity() {
         val navigationView=findViewById<NavigationView>(R.id.navView)
         val iv_menu = findViewById<ImageView>(R.id.iv_menu)
 
+        val iv_menu2 = findViewById<ImageView>(R.id.iv_menu)
+
         val getstarted = findViewById<Button>(R.id.getstarted)
 
         getstarted.setOnClickListener {
